@@ -1,0 +1,10 @@
+.deb 在ubuntu里面的安装包格式
+apt 就是一个命令，可以从官方调取程序下载
+扩展 就是用来添加一些功能，比如说教程里面让下载的就是可以用来给出编译提示，还有我比如说c/c++ runner，就可以用来自由切换gcc和g++，就不用额外去改了
+
+
+安装命令我直接进入https://code.visualstudio.com/thank-you?dv=linux64_deb进行的下载
+终端运行了g++ --version
+sudo apt update
+sudo apt install gcc g++
+这些命令导入编译器
